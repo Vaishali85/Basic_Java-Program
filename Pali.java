@@ -4,11 +4,11 @@ class Pali
     public static void main(String args[])throws Exception
     {
        int r,sum=0 , temp;
-
-    //BufferedReader br =  new BufferedReader(new InputStreamReader(System.in));
-    //System.out.println("Enter no  ");
-       // a= Integer.parseInt(br.readLine());
-          int a=454;
+        int a;
+    BufferedReader br =  new BufferedReader(new InputStreamReader(System.in));
+    System.out.println("Enter no  a");
+        a= Integer.parseInt(br.readLine());
+          //int a=454;
            temp=a;
         while(a>0)
         {

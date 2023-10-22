@@ -1,6 +1,8 @@
 import java.io.*;
 class Palin
 {
+// User Define by using scanner
+
     public static void main(String args[])
     {
         String n,rev="";
